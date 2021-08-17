@@ -14,6 +14,7 @@ btn.addEventListener('click', () => {
 	//Getting how many words were typed
 	let wordCount = text.value.split(' ').length;
 
+	//Displaying it only if the text.value is not empty
 	if (text.value !== "") {
 		displayText.innerText = `Você digitou ${wordCount} palavras`;
 	}
