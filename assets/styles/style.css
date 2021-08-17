@@ -1,3 +1,41 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea {
+  height: 150px;
+  width: 350px;
+  border: 2px solid darkgray;
+  margin: 18px;
+  text-align:left;
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(3, 186, 252);
+  color: white;
+  font-size: 24px;
+  width: 356px;
+  height: 40px;
+  border: 0.5px solid darkblue;
+  margin: 0 20px;
+}
+
+.typed-words {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 70px;
+}
